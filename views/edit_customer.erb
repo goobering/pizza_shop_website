@@ -1,0 +1,6 @@
+<form action="/customer/<%= @customer.id %>" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" value="<%= @customer.name %>" required>
+
+  <input type="submit" value="Update customer">
+</form>
